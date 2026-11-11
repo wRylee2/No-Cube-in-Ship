@@ -1,0 +1,34 @@
+{
+	"geode": "5.9.0",
+	"gd": {
+		"win": "2.2081",
+		"android": "2.2081",
+		"mac": "2.2081",
+		"ios": "2.2081"
+	},
+	"id": "gdrynk.no-ship-cube",
+	"name": "No Ship Cube",
+	"version": "v1.0.0",
+	"developer": "GDRynk",
+	"description": "Hides the cube that rides inside your ship, UFO and jetpack.",
+	"settings": {
+		"hide-in-ship": {
+			"type": "bool",
+			"name": "Hide in Ship",
+			"description": "Hide the cube inside the ship.",
+			"default": true
+		},
+		"hide-in-ufo": {
+			"type": "bool",
+			"name": "Hide in UFO",
+			"description": "Hide the cube inside the UFO.",
+			"default": true
+		},
+		"hide-in-jetpack": {
+			"type": "bool",
+			"name": "Hide in Jetpack",
+			"description": "Hide the cube riding the jetpack (platformer ship).",
+			"default": true
+		}
+	}
+}
